@@ -41,7 +41,7 @@ const AskForm: React.FC = () => {
   return (
     <div>
       {answer && (
-        <div className="mt-4 bg-gray-100 p-4 rounded">
+        <div className="mt-4 bg-gray-100 p-4 rounded text-gray-500">
           <strong>Answer:</strong> {answer}
         </div>
       )}
@@ -50,7 +50,7 @@ const AskForm: React.FC = () => {
           type="text"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="border p-2 mr-2 w-full md:w-auto"
+          className="border p-2 mr-2 w-full md:w-auto text-black"
           placeholder="Enter your question here"
           disabled={loading}
         />
