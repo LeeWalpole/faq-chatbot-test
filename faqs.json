@@ -1,0 +1,12 @@
+{
+  "faqs": [
+    {
+      "question": "What is your company name?",
+      "answer": "Glamourfans"
+    },
+    {
+      "question": "Who works at Glamourfans?",
+      "answer": "Paul is the CEO, Jen is the CFO, Lee is the COO, Dan is the CTO, Shane is the CMO."
+    }
+  ]
+}
