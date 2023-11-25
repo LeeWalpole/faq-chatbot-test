@@ -5,8 +5,12 @@
       "answer": "Glamourfans"
     },
     {
-      "question": "Who works at Glamourfans?",
-      "answer": "Paul is the CEO, Jen is the CFO, Lee is the COO, Dan is the CTO, Shane is the CMO."
+      "question": "What does the company do?",
+      "answer": "Nothing yet, it's just a company that tests things."
+    },
+    {
+      "question": "How old is Glamourfans?",
+      "answer": "Glamourfans born in 1 Jan, 2023"
     }
   ]
 }

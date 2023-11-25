@@ -1,0 +1,16 @@
+{
+  "team": [
+    {
+      "position": "CEO",
+      "name": "Paul"
+    },
+    {
+      "position": "CFO",
+      "name": "Jen"
+    },
+    {
+      "position": "CMO",
+      "name": "Lee"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import OpenAI from "openai";
 import faqs from "@/db/faqs.json";
+import team from "@/db/team.json";
+import about from "@/db/about.json";
 
 export default async function handler(
   req: NextApiRequest,
@@ -13,8 +15,13 @@ export default async function handler(
 
   const { question } = req.body;
 
-  // Find if the question already exists in faqs.json
+  // Find if the question already exists in db/faq.json
   const existingAnswer = faqs.faqs.find(
+    (faq) => faq.question.toLowerCase() === question.toLowerCase()
+  )?.answer;
+
+  // Find team member from db/team.json
+  const existingStaff = faqs.faqs.find(
     (faq) => faq.question.toLowerCase() === question.toLowerCase()
   )?.answer;
 
